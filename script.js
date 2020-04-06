@@ -36,8 +36,6 @@ var userChoice = prompt("Choose a password length");
         // Confirm if user wants numeric chars
         var confirmNum = confirm("Numeric Character?");
     
-
-
 // Function to generate the password based on the confirmed additions by the user
     function generatePassword() {
         var password = []   
@@ -47,22 +45,22 @@ var userChoice = prompt("Choose a password length");
         // if so bring a random character of for each confirmed
 
         console.log(password)
-            if(confirmNum === true); {
+            if(confirmNum){
                 var numeric = nums[Math.floor(Math.random() * nums.length)];
                 password.push(numeric);
                 console.log(confirmNum);    
             }
-            if(confirmLower === true);{
+            if(confirmLower){
                 var lower = lowercas[Math.floor(Math.random() * lowercas.length)];
                 password.push(lower);
                 console.log("lower"); 
             }
-            if(confirmUpper === true);{
+            if(confirmUpper){
                 var upper = uppercas[Math.floor(Math.random() * uppercas.length)];
                 password.push(upper);
                 console.log("upper")
             }
-            if(confirmSpecial === true);{
+            if(confirmSpecial){
                 // getRandomSymbol();
                 password.push(getRandomSymbol())
                 console.log("symbol");
