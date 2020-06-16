@@ -47,23 +47,20 @@ var userChoice = prompt("Choose a password length");
         console.log(password)
             if(confirmNum){
                 var numeric = nums[Math.floor(Math.random() * nums.length)];
-                password.push(numeric);
-                console.log(confirmNum);    
+                password.push(numeric);   
             }
             if(confirmLower){
                 var lower = lowercas[Math.floor(Math.random() * lowercas.length)];
                 password.push(lower);
-                console.log("lower"); 
             }
             if(confirmUpper){
                 var upper = uppercas[Math.floor(Math.random() * uppercas.length)];
                 password.push(upper);
-                console.log("upper")
+
             }
             if(confirmSpecial){
                 // getRandomSymbol();
                 password.push(getRandomSymbol())
-                console.log("symbol");
             }
         }   
 
