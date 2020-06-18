@@ -10,6 +10,4 @@ This was an assignment from the boot-camp, this was my first time I had to write
 
 ![Password Generator](./assets/img/passwordGenerator.png)
 
-https://tassim.github.io/Password-Generator/ - automatic!
 [GitHub](https://tassim.github.io/Password-Generator/)
-![https://tassim.github.io/Password-Generator/]
